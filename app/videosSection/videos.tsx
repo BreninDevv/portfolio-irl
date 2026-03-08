@@ -10,10 +10,10 @@ export default function Edits() {
     },
     {
       id: 2,
-      title: "Parkour Challenge",
+      title: "RAY U DID IT (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "", // Adicione links reais aqui
+      video: "https://www.youtube.com/shorts/jk5R-tZOzME", // Adicione links reais aqui
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export default function Edits() {
     },
     {
       id: 5,
-      title: "Blox Fruits PvP",
+      title: "RAY CLIP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       video: "https://www.youtube.com/shorts/PWW59RCgrMA",
