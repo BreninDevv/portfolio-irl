@@ -1,7 +1,7 @@
 export default function Edits() {
   const minecraftEdits = [
     {
-      mention: "@KAI CENAT LIVE",
+      mention: "@Kai cenat live",
       title: "I GIVE UP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
@@ -26,14 +26,14 @@ export default function Edits() {
 
   const robloxEdits = [
     {
-      mention: 4,
-      title: "Bedwars Clutch",
+      mention: "@TheTylilShowLivee",
+      title: "RIGGIE 😂 (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "",
+      video: "https://youtube.com/shorts/MBQXE4VzrWg?feature=share",
     },
     {
-      mention: "@RAYLIVEE",
+      mention: "@RayLivee",
       title: "RAY CLIP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
