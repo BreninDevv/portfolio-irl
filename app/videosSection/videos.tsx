@@ -1,22 +1,22 @@
 export default function Edits() {
   const minecraftEdits = [
     {
-      id: 1,
-      title: "Survival Series",
+      mention: "@KAI CENAT LIVE",
+      title: "I GIVE UP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       // Use o link direto do YouTube ou o formato embed
-      video: "",
+      video: "https://youtube.com/shorts/JwH1OawsxPk",
     },
     {
-      id: 2,
+      mention: "@RayLivee",
       title: "RAY U DID IT (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       video: "https://www.youtube.com/shorts/jk5R-tZOzME", // Adicione links reais aqui
     },
     {
-      id: 3,
+      mention: 3,
       title: "The End Dimension",
       category: "Long Form",
       type: "horizontal",
@@ -26,21 +26,21 @@ export default function Edits() {
 
   const robloxEdits = [
     {
-      id: 4,
+      mention: 4,
       title: "Bedwars Clutch",
       category: "Shorts",
       type: "vertical",
       video: "",
     },
     {
-      id: 5,
+      mention: "@RAYLIVEE",
       title: "RAY CLIP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       video: "https://www.youtube.com/shorts/PWW59RCgrMA",
     },
     {
-      id: 6,
+      mention: 6,
       title: "Brookhaven Story",
       category: "Long Form",
       type: "horizontal",
@@ -65,7 +65,7 @@ export default function Edits() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {minecraftEdits.map((item) => (
-            <VideoCard key={item.id} item={item} />
+            <VideoCard key={item.mention} item={item} />
           ))}
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function Edits() {
       <div className="w-full max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {robloxEdits.map((item) => (
-            <VideoCard key={item.id} item={item} />
+            <VideoCard key={item.mention} item={item} />
           ))}
         </div>
       </div>
@@ -130,7 +130,7 @@ function VideoCard({ item }: { item: any }) {
       <div className="px-2">
         <h4 className="text-2xl font-bold text-[#181922]">{item.title}</h4>
         <p className="text-xs font-sans text-gray-500 font-bold uppercase tracking-widest">
-          Project #{item.id}
+          {item.mention}
         </p>
       </div>
     </div>
