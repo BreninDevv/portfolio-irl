@@ -37,7 +37,7 @@ export default function Edits() {
       title: "RAY CLIP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "https://www.youtube.com/shorts/PWW59RCgrMA",
+      video: "https://youtube.com/shorts/p4eayWkwNd8",
     },
     {
       mention: 6,
