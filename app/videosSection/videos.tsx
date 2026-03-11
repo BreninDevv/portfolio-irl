@@ -16,11 +16,11 @@ export default function Edits() {
       video: "https://www.youtube.com/shorts/jk5R-tZOzME", // Adicione links reais aqui
     },
     {
-      mention: 3,
-      title: "The End Dimension",
-      category: "Long Form",
-      type: "horizontal",
-      video: "",
+      mention: "@RAYLIVEE",
+      title: "RAY DANCING",
+      category: "Shorts",
+      type: "vertical",
+      video: "https://youtube.com/shorts/IsQTdMaliXM",
     },
   ];
 
