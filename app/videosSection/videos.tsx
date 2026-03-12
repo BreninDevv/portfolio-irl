@@ -43,7 +43,7 @@ export default function Edits() {
       title: "RAY FIGHTS JON JONES",
       category: "Shorts",
       type: "vertical",
-      video: "",
+      video: "https://youtube.com/shorts/7WLVm9_vHPM",
     },
   ];
 
@@ -61,7 +61,9 @@ export default function Edits() {
         <div className="flex items-center gap-4 mb-10 border-b-4 border-[#181922] pb-4">
           <h3 className="text-3xl font-bold text-[#181922]">In Real Life</h3>
         </div>
-
+        <div className="flex justify-center items-center mb-15 font-bold text-[#181922] text-center text-2xl">
+          All videos have been edited for technical demonstration purposes ONLY.
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {minecraftEdits.map((item) => (
             <VideoCard key={item.mention} item={item} />
@@ -70,7 +72,7 @@ export default function Edits() {
       </div>
 
       {/* Roblox Section */}
-      <div className="w-full max-w-6xl">
+      <div className="w-full max-w-6xl pb-17">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {robloxEdits.map((item) => (
             <VideoCard key={item.mention} item={item} />
