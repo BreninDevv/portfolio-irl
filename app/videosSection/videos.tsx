@@ -2,18 +2,10 @@ export default function Edits() {
   const minecraftEdits = [
     {
       mention: "@KAI CENAT LIVE",
-      title: "I GIVE UP (PORTFOLIO)",
-      category: "Shorts",
-      type: "vertical",
-      // Use o link direto do YouTube ou o formato embed
-      video: "https://youtube.com/shorts/VMX5D0E-M80",
-    },
-    {
-      mention: "@RAYLIVEE",
       title: "RAY U DID IT (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "https://www.youtube.com/shorts/jk5R-tZOzME", // Adicione links reais aqui
+      video: "https://www.youtube.com/shorts/jk5R-tZOzME",
     },
     {
       mention: "@RAYLIVEE",
@@ -21,6 +13,13 @@ export default function Edits() {
       category: "Shorts",
       type: "vertical",
       video: "https://youtube.com/shorts/IsQTdMaliXM",
+    },
+    {
+      mention: "@RAYLIVEE",
+      title: "I GIVE UP (PORTFOLIO)",
+      category: "Shorts",
+      type: "vertical",
+      video: "https://youtube.com/shorts/VMX5D0E-M80",
     },
   ];
 
