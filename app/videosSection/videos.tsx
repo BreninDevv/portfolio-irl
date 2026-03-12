@@ -1,15 +1,15 @@
 export default function Edits() {
   const minecraftEdits = [
     {
-      mention: "@Kai cenat live",
+      mention: "@KAI CENAT LIVE",
       title: "I GIVE UP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       // Use o link direto do YouTube ou o formato embed
-      video: "https://youtube.com/shorts/JwH1OawsxPk",
+      video: "https://youtube.com/shorts/VMX5D0E-M80",
     },
     {
-      mention: "@RayLivee",
+      mention: "@RAYLIVEE",
       title: "RAY U DID IT (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
@@ -17,7 +17,7 @@ export default function Edits() {
     },
     {
       mention: "@RAYLIVEE",
-      title: "RAY DANCING",
+      title: "RAY DANCING (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
       video: "https://youtube.com/shorts/IsQTdMaliXM",
@@ -26,24 +26,24 @@ export default function Edits() {
 
   const robloxEdits = [
     {
-      mention: "@TheTylilShowLivee",
+      mention: "@THETYLILSHOWLIVEE",
       title: "RIGGIE 😂 (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "https://youtube.com/shorts/MBQXE4VzrWg?feature=share",
+      video: "https://youtube.com/shorts/gWuSqOVqf8k",
     },
     {
-      mention: "@RayLivee",
-      title: "RAY CLIP (PORTFOLIO)",
+      mention: "@RAYLIVEE",
+      title: "RAY COWBOY (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
-      video: "https://youtube.com/shorts/p4eayWkwNd8",
+      video: "https://youtube.com/shorts/NtAxVjXfvwg",
     },
     {
-      mention: 6,
-      title: "Brookhaven Story",
-      category: "Long Form",
-      type: "horizontal",
+      mention: "@RAYLIVEE",
+      title: "RAY FIGHTS JON JONES",
+      category: "Shorts",
+      type: "vertical",
       video: "",
     },
   ];
