@@ -1,7 +1,7 @@
 export default function Edits() {
   const minecraftEdits = [
     {
-      mention: "@KAI CENAT LIVE",
+      mention: "@RAYLIVEE",
       title: "RAY U DID IT (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
@@ -15,7 +15,7 @@ export default function Edits() {
       video: "https://youtube.com/shorts/IsQTdMaliXM",
     },
     {
-      mention: "@RAYLIVEE",
+      mention: "@KAI CENAT LIVE",
       title: "I GIVE UP (PORTFOLIO)",
       category: "Shorts",
       type: "vertical",
